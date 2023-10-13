@@ -1,6 +1,6 @@
-# Node express.js application architecture
+# Node express.js & MongoDB starter application
 
-This is a clean and simple architecture for express application
+This is a simple setup for express.js with mongoDB project. 
 
 ## Usage
 
