@@ -1,6 +1,10 @@
 const mongoose = require("mongoose");
 const { DB_URI } = require("../conf");
 
+mongoose.connection.on("error", (error) => {
+  console.log("An error occurred:", error);
+});
+
 module.exports = () => {
   mongoose.set("strictQuery", false);
   mongoose

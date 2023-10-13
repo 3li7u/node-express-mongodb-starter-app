@@ -1,15 +1,16 @@
 GET http://localhost:8000/api/users
 
 ###
-GET http://localhost:8000/api/users/6528fb14f0442dd73573f898
+GET http://localhost:8000/api/users/65296c46f6ac502efde58011
 
 ###
 POST http://localhost:8000/api/users
 Content-Type: application/json
 
 {
-  "username": "test",
-  "full_name": "Test",
+  "username": "3li7u",
+  "full_name": "Ali Alhussein",
+  "email": "test@test.test",
   "password": "12345678"
 }
 
